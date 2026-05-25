@@ -1,0 +1,5 @@
+name: PenaltyModifier
+main: me.bunnycat.anvilpenaltyforgiver.PenaltyModifier
+version: 1.0
+api-version: 1.17
+commands:

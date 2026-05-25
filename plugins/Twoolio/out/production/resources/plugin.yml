@@ -1,0 +1,17 @@
+name: Twoolio
+main: me.bunnycat.twoolio.Twoolio
+version: 1.0
+api-version: 1.19
+commands:
+  twoolioupdate:
+    usage: /<command>
+    description: Update level requirements from config
+  settoolupgrades:
+    usage: /<command> AMOUNT
+    decription: Add upgrade points to currently held tool
+  settoolxp:
+    usage: /<command> AMOUNT
+    decription: Set EXP of currently held tool
+  settoollvl:
+    usage: /<command> AMOUNT
+    decription: Set level of currently held tool

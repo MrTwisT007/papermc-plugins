@@ -1,0 +1,37 @@
+name: WarpsGui--
+version: 1.0
+main: me.bunnycat.warpsgui.Warps
+author: Bunnycat
+api-version: 1.19
+commands:
+  menu:
+    usage: /<command>
+    description: Main menu
+  setwarp:
+    usage: /<command>
+    description: Set warp
+    aliases: [sw]
+  warp:
+    usage: /<command>
+    description: Open warp menu
+  removewarp:
+    usage: /<command>
+    description: Remove warp
+    aliases: [rw]
+  sethome:
+    usage: /<command>
+    description: Set home
+    aliases: [sh]
+  home:
+    usage: /<command>
+    description: Open home menu
+  removehome:
+    usage: /<command>
+    description: Remove home
+    aliases: [rh]
+  setspawn:
+    usage: /<command>
+    description: Set spawn
+  spawn:
+    usage: /<command>
+    description: Teleport you to spawn

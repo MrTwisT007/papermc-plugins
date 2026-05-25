@@ -1,0 +1,131 @@
+Messages:
+  NoPlayer: 'You must be a player!'
+  NoPermissions: '§cYou don''t have permissions!'
+  TeleportedToHome: '§bYou''ve been teleported to home'
+  TeleportedToWarp: '§bYou''ve been teleported to warp'
+  TeleportedToSpawn: '§eYou''ve been teleported to spawn!'
+  MagicWatchToggle: '§bMagic watches has been toggled!'
+  SetHomeFirst: '§aSet home first using /sethome name'
+  SetWarpFirst: '§aSet warp first using /setwarp name'
+  NoHomeWithName: '§cYou don''t have home with name'
+  HomeRemoved: '§bHome has been removed!'
+  ToRemoveHome: '§cTo remove home use /removehome name'
+  WarpRemoved: '§bWarp has been removed!'
+  ToRemoveWarp: '§cTo remove warp use /removewarp name'
+  NoWarpWithName: '§cYou don''t have warp with name'
+  HomeCreated: '§bHome has been created!'
+  NoMoreHomes: '§cYou can''t create more homes!'
+  ToSetHome: '§cTo set home use /sethome name'
+  SpawnCreated: '§bSpawn location has been created!'
+  WarpCreated: '§bWarp has been created!'
+  ToSetWarp: '§cTo set warp use /setwarp name'
+  SetSpawnFirst: '§eSet spawn location first!'
+  CloseMenu: '§cClose menu'
+  Homes: '§eHomes'
+  Warps: '§eWarps'
+  ToggleMagicWatch: '§cMagic Watch toggled!'
+  Spawn: '§eSpawn'
+  Menu: '§fMenu'
+  Icons: '§fIcons'
+  MagicWatchName: '§cMagic Watch'
+
+Sounds:
+  NoPermissionsSound: 'ENTITY_BLAZE_DEATH'
+  SetSpawnFirstSound: 'ENTITY_ZOMBIE_INFECT'
+  SetWarpFirstSound: 'ENTITY_ZOMBIE_INFECT'
+  SetHomeFirstSound: 'ENTITY_ZOMBIE_INFECT'
+  ClickSound: 'UI_BUTTON_CLICK'
+  TeleportedToHomeSound: 'ENTITY_ENDERMAN_TELEPORT'
+  TeleportedToWarpSound: 'ENTITY_ENDERMAN_TELEPORT'
+  TeleportedToSpawnSound: 'ENTITY_PLAYER_LEVELUP'
+  MagicWatchToggleSound: 'ENTITY_BAT_TAKEOFF'
+  MenuOpenSound: 'BLOCK_WOODEN_DOOR_OPEN'
+  MenuCloseSound: 'BLOCK_WOODEN_DOOR_CLOSE'
+  NoHomeWithNameSound: 'ENTITY_CREEPER_DEATH'
+  NoWarpWithNameSound: 'ENTITY_CREEPER_DEATH'
+  ToRemoveHomeSound: 'ENTITY_CREEPER_DEATH'
+  ToRemoveWarpSound: 'ENTITY_CREEPER_DEATH'
+  ToSetHomeSound: 'ENTITY_ZOMBIE_INFECT'
+  ToSetWarpSound: 'ENTITY_ZOMBIE_INFECT'
+  HomeCreatedSound: 'ENTITY_WITHER_SPAWN'
+  WarpCreatedSound: 'ENTITY_WITHER_SPAWN'
+  NoMoreHomesSound: 'ENTITY_BLAZE_DEATH'
+  SpawnCreatedSound: 'ENTITY_WITHER_SPAWN'
+
+BluemapIntegration:
+  enabled: true
+  showwarps: true
+  showhomes: true
+  showspawn: true
+
+WarpIcons:
+  [
+    'STONE',
+    'POLISHED_DIORITE',
+    'POLISHED_ANDESITE',
+    'POLISHED_GRANITE',
+    'GRASS_BLOCK',
+    'DIRT',
+    'STONE_BRICKS',
+    'OAK_PLANKS',
+    'WATER_BUCKET',
+
+    'LAVA_BUCKET',
+    'RED_BED',
+    'RAIL',
+    'OAK_LOG',
+    'COBWEB',
+    'NETHERRACK',
+    'NETHER_BRICKS',
+    'DIAMOND_BLOCK',
+    'EMERALD_BLOCK',
+
+    'COAL_BLOCK',
+    'LAPIS_BLOCK',
+    'REDSTONE_BLOCK',
+    'GOLD_BLOCK',
+    'IRON_BLOCK',
+    'QUARTZ_BLOCK',
+    'DIAMOND',
+    'EMERALD',
+    'COAL',
+
+    'LAPIS_LAZULI',
+    'REDSTONE',
+    'GOLD_INGOT',
+    'IRON_INGOT',
+    'SEA_LANTERN',
+    'OBSIDIAN',
+    'END_PORTAL_FRAME',
+    'END_STONE_BRICKS',
+    'POLISHED_BLACKSTONE',
+
+    'SANDSTONE',
+    'BLAZE_POWDER',
+    'BROWN_MUSHROOM',
+    'BREWING_STAND',
+    'ENDER_CHEST',
+    'CHEST',
+    'FURNACE',
+    'ANVIL',
+    'ENCHANTING_TABLE',
+
+    'PURPUR_BLOCK',
+    'SNOW_BLOCK',
+    'PRISMARINE_BRICKS',
+    'MAGMA_BLOCK',
+    'COOKED_CHICKEN',
+    'COOKED_PORKCHOP',
+    'COOKED_BEEF',
+    'APPLE',
+    'GOLDEN_APPLE'
+  ]
+
+Icons:
+  MagicWatch: 'CLOCK'
+  Warps: 'OAK_SIGN'
+  Homes: 'DARK_OAK_DOOR'
+  Spawn: 'ARMOR_STAND'
+  HomeIcon: 'RED_BED'
+  NoPermissions: 'BARRIER'
+  CloseMenu: 'REDSTONE_BLOCK'

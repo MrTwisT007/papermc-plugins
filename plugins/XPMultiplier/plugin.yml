@@ -1,0 +1,5 @@
+name: XPModifier
+main: me.bunnycat.xpmodifier.XPModifier
+version: 1.0
+api-version: 1.17
+commands:

@@ -1,0 +1,5 @@
+name: OPLevelShifter
+main: me.bunnycat.oplevelshifter.OPLevelShifter
+version: 1.0
+api-version: 1.17
+commands:

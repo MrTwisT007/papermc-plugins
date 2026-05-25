@@ -1,0 +1,5 @@
+name: TimeMaster
+main: me.bunnycat.timemaster.TimeMaster
+version: 1.0
+api-version: 1.17
+commands:
